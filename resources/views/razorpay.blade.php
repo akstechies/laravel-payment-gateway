@@ -43,7 +43,7 @@
                     <form action="{!!route('payment')!!}" method="POST" >
                         <script src="https://checkout.razorpay.com/v1/checkout.js"
                                 data-key="{{ env('RAZOR_KEY') }}"
-                                data-amount="25000"
+                                data-amount="52000"
                                 data-currency="INR"
                                 data-buttontext="Pay Amount"
                                 data-name="HugeKart"
